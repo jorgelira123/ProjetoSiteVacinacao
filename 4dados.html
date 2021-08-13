@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="css/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Vacinação Covid-19 - GREICE</title>
+ 
+</head>
+<body class="container">
+    
+    <form class="main">
+
+        <h1>Dados Cadastrais</h1>
+
+          
+
+            <div class="form-group col-lg-4">
+              <label> Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Insira seu nome aqui" required>
+              <div class="valid-feedback"></div>
+              <br>
+
+            
+              <div>
+                <label>Sexo</label>
+                <select id="sexo">
+                  <option selected disabled>Selecione o seu sexo</option>
+                  <option>Feminino</option>
+                  <option>Masculino</option>
+                  <option>Prefiro Não Declarar</option>
+                </select>
+              </div> <br>
+
+              <div>
+                <label>Data de Nascimento</label>
+                <input id="nascimento" type="date" placeholder="Insira a data de nascimento">
+              </div><br>
+
+            <div>
+              <label>CPF</label>
+              <input id="cpf" type="number"  placeholder="Insira somente números" required>
+            </div><br>
+
+            <div>
+              <label>Telefone</label>
+              <input id="telefone" type="number" placeholder="Insira seu telefone aqui" required>
+          </div> <br>
+
+           <div>
+              <label>E-mail</label>
+              <input id="email" type="text"  minlength="10" placeholder="Insira seu e-mail aqui">
+          </div>
+
+          <div id="button">
+            <a href="3local.html"><button class="alert" id="voltar3" type="button" class="btn btn-primary"><b><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Anterior</b></button></a> 
+            <a href="final.html"><button class="alert" id="btn-prox-4" type="button" class="btn btn-primary"><b>Próximo <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></b></button></a>    
+        </div>
+      </form> <br>
+    
+
+    <script type="text/javascript" src="scriptDados.js"></script>
+</body>
+</html>
